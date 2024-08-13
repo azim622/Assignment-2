@@ -215,3 +215,77 @@ color: rgba(239, 237, 232, 0.65);
 font-size: 16px;
 font-weight: 400;
 }
+/* habit section  */
+.habit-container{
+
+}
+.habit-title{
+    display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: center;
+color: rgb(255, 255, 255);
+font-family: Inter;
+font-size: 48px;
+font-weight: 900;
+text-align: left;
+}
+.habit-description{
+    display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: center;
+color: rgba(255, 255, 255, 0.5);
+font-family: Inter;
+font-size: 14px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0.3px;
+text-align: center;
+}
+.habit-container{
+    display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: center;
+}
+.features{
+    display: flex;
+justify-content: space-around;
+align-items: center;
+flex-wrap: wrap;
+margin: 50px 0;
+gap: 50px;
+}
+.feature{
+    width: 150px;
+    text-align: center;
+}
+.feature img{
+    height: 150px;
+    width: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.feature h3{
+    
+    color: rgb(255, 255, 255);
+font-size: 18px;
+font-weight: 600;
+text-align: left;
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: center;
+margin: 15px 0;
+
+}
+.feature p{
+    color: rgba(255, 255, 255, 0.5);
+font-family: Inter;
+font-size: 14px;
+font-weight: 400;
+line-height: 18px;
+letter-spacing: 0.3px;
+text-align: center;
+}
