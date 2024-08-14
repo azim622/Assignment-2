@@ -206,56 +206,52 @@ top: 135px;
 }
 .main-text, .main-text-2{
     font-size: 24px;
-font-weight: 900;
-color: rgb(250, 250, 249);
+    font-weight: 900;
+    color: rgb(250, 250, 249);
 
 }
 .text-descript, .text-descript-2{
-color: rgba(239, 237, 232, 0.65);
-font-size: 16px;
-font-weight: 400;
+    color: rgba(239, 237, 232, 0.65);
+    font-size: 16px;
+    font-weight: 400;
 }
 /* habit section  */
-.habit-container{
 
-}
 .habit-title{
     display: flex;
-flex-direction: column;
-justify-content: flex-start;
-align-items: center;
-color: rgb(255, 255, 255);
-font-family: Inter;
-font-size: 48px;
-font-weight: 900;
-text-align: left;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    color: rgb(255, 255, 255);
+   
+    text-align: left;
 }
 .habit-description{
-    display: flex;
-flex-direction: column;
-justify-content: flex-start;
-align-items: center;
-color: rgba(255, 255, 255, 0.5);
-font-family: Inter;
-font-size: 14px;
-font-weight: 400;
-line-height: 24px;
-letter-spacing: 0.3px;
-text-align: center;
+        display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.3px;
+    text-align: center;
 }
 .habit-container{
     display: flex;
-flex-direction: column;
-justify-content: flex-start;
-align-items: center;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
 }
 .features{
     display: flex;
-justify-content: space-around;
-align-items: center;
-flex-wrap: wrap;
-margin: 50px 0;
-gap: 50px;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 50px 0;
+    gap: 50px;
 }
 .feature{
     width: 150px;
@@ -270,22 +266,131 @@ gap: 50px;
 .feature h3{
     
     color: rgb(255, 255, 255);
-font-size: 18px;
-font-weight: 600;
-text-align: left;
-display: flex;
-flex-direction: column;
-justify-content: flex-start;
-align-items: center;
-margin: 15px 0;
+    font-size: 18px;
+    font-weight: 600;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 15px 0;
 
 }
 .feature p{
     color: rgba(255, 255, 255, 0.5);
-font-family: Inter;
-font-size: 14px;
-font-weight: 400;
-line-height: 18px;
-letter-spacing: 0.3px;
-text-align: center;
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0.3px;
+    text-align: center;
+}
+/* run section  */
+.run-section{
+    background-color: #333;
+    border-radius: 20px;
+    max-width: 1060px;
+    margin: 60px 0;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    max-width: 800px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+}
+.run-part{
+    
+}
+.run-image{
+   width: 20%;
+
+}
+/* BMI calculation */
+.calculation{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.calculation p{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 1rem;
+    font-weight: 400;
+}
+.bmi-calculation{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-height: 350px;
+    max-width: 1440px;
+    margin: 50px auto;
+    padding: 40px;
+    background: rgb(34, 34, 34);
+    box-shadow:  rgba(0, 0, 0, 0.5);
+    
+}
+.bmi-chart{
+    flex: 1;
+    margin-right: 20px;
+}
+.bmi-chart h2{
+    color: #FFFFFF;
+    margin-bottom: 20px;
+    font-size: 1.8rem;
+}
+.bmi-chart table{
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 1.1rem;
+}
+.bmi-chart th, .bmi-chart td{
+    padding: 12px 15px;
+    border: 1px solid #444;
+    color: #FFFFFF;
+}
+.calculator-form{
+    flex: 1;
+    margin-left: 20px;
+}
+.calculator-form h2{
+    font-size: 1.8rem;
+    margin: 15px 0;
+    color: #FFFFFF;
+}
+.calculator-form p{
+    font-size: 0.8rem;
+    margin: 15px 0;
+}
+
+.height{
+    grid-area: height;
+}
+.weight{
+    grid-area: weight;
+}
+.age{
+    grid-area: age;
+}
+.sex{
+    grid-area: sex;
+}
+.activity{
+    grid-area: activity;
+}
+.form-group{
+    display: grid;
+    gap: 12px;
+    grid-template-areas: 
+    "height  weight"
+    "age      sex"
+    "activity  activity";
+}
+   
+input, select{
+    background: #444;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
 }
