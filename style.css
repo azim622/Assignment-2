@@ -315,6 +315,7 @@ h1{
 .bmi-chart{
     flex: 1;
     margin-right: 20px;
+    margin-left: 50px;
 }
 .bmi-chart h2{
     color: #FFFFFF;
@@ -325,6 +326,7 @@ h1{
     width: 100%;
     border-collapse: collapse;
     font-size: 1.1rem;
+    max-width: 400px;
 }
 .bmi-chart th, .bmi-chart td{
     padding: 12px 15px;
@@ -362,6 +364,7 @@ h1{
     grid-area: activity;
 }
 .form-group{
+    max-width: 400px;
     display: grid;
     gap: 12px;
     grid-template-areas: 
@@ -521,7 +524,7 @@ hr{
     .hide{
         display: none;
     }
-    .title , .coaching-description{
+    .title{
         flex-direction: column;
     }
     ul li a{
@@ -561,6 +564,30 @@ hr{
     }
     .bmi-calculation{
         flex-direction: column;
+        background: rgb(34, 34, 34);
+    }
+    .form-group{
+        width: 200px;
+    }
+    
+    .calculation p{
+        font-size: 0.7rem;
+    }
+    .bmi-chart h2{
+        font-size: 1.2rem;
+    }
+    .bmi-chart table{
+        width: 250px;
+    }
+    .calculator-form h2{
+        font-size: 1.5rem;
+    }
+    .calculator-form p{
+        font-size: 0.8rem;
+    }
+    .bmi-calculation{
+        width: 250px;
+        height: 800px;
     }
 }
 
