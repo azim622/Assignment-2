@@ -89,7 +89,9 @@ h1{
     text-align: left;
     margin: 10px 30px;
 }
-.italic{
+#italic{
+    @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+                
 }
 .banner-description{
     color: rgba(255, 255, 255, 0.5);
@@ -417,7 +419,9 @@ input, select {
     right: 30px;
 }
 .team-member img{
+    height: 100%;
    width: 100%;
+   object-fit: cover;
    width: 300px;
    height: 270px;
    padding: 10px 10px 0 10px;
